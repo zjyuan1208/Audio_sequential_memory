@@ -16,8 +16,8 @@ from src.models import ModernAsymmetricHopfieldNetwork, MultilayertPC, SingleLay
 from src.utils import *
 from src.get_data import *
 
-# path = 'audio'
-path = 'speech'
+path = 'audio'
+# path = 'speech'
 result_path = os.path.join('./results/', path)
 if not os.path.exists(result_path):
     os.makedirs(result_path)
